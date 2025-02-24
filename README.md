@@ -1,5 +1,7 @@
 # Redmine MCP Server for Cline
 
+[![smithery badge](https://smithery.ai/badge/@ilask/Redmine-MCP)](https://smithery.ai/server/@ilask/Redmine-MCP)
+
 This is a custom MCP (Model Context Protocol) server that integrates with Redmine, allowing you to interact with your Redmine projects and issues through the Cline VS Code extension.
 
 ## Prerequisites
@@ -11,6 +13,15 @@ This is a custom MCP (Model Context Protocol) server that integrates with Redmin
 
 ## Installation
 
+### Installing via Smithery
+
+To install Redmine Integration Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@ilask/Redmine-MCP):
+
+```bash
+npx -y @smithery/cli install @ilask/Redmine-MCP --client claude
+```
+
+### Manual Installation
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/ilask/Redmine-MCP.git
